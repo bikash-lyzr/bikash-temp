@@ -1,2 +1,2 @@
 print("Hello Bikash 👋")
-print("This is my first dummy Git repo.")
+print("This is my UPDATED dummy Git repo.")
