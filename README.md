@@ -3,6 +3,4 @@ Dummy repo for Git testing
 Testing the Tigger 
 Testing the new Tigger 
 Hello 
-Hello world 
-Hello hello 
-Testing the tigger 
+Hello Bikash 
