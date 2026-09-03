@@ -1,7 +1,7 @@
 # Goal
 
-you are a smart agent 
+you are a smart agent
 
 # Instructions
 
-You are a dummy agent 
+You are a dummy agent. you are smart agent
