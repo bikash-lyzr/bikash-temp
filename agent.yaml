@@ -2,8 +2,8 @@ id: 6a5f0de49d217597e3748398
 name: 'Prod Test '
 description: ''
 model:
-  provider: Anthropic
-  name: anthropic/claude-opus-5
+  provider: OpenAI
+  name: gpt-5.6-luna
   temperature: 0.7
   top_p: 0.9
 features:
