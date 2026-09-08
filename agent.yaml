@@ -15,6 +15,12 @@ features:
       provider_type: cognis
       params:
         cross_session: false
+- type: RAI
+  priority: 1
+  config:
+    endpoint: https://rai-prod.studio.lyzr.aiv1/rai/inference
+    policy_id: 6a5f1b4def8e36d7930cc805
+    policy_name: 'prod RAI '
 tools: []
 response_format:
   type: text
