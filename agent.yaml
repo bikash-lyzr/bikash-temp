@@ -19,7 +19,7 @@ tools: []
 managed_agents:
 - id: 6a423d99261431fb32398960
   name: 'Tweet '
-  usage_description: use this agent for writting tweets
+  usage_description: Use this agent to write tweets
 response_format:
   type: text
 max_iterations: 25
