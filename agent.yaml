@@ -22,6 +22,10 @@ features:
     policy_id: 6a5f1b4def8e36d7930cc805
     policy_name: 'prod RAI '
 tools: []
+managed_agents:
+- id: 6a423d99261431fb32398960
+  name: 'Tweet '
+  usage_description: use this agent for writting tweets
 response_format:
   type: text
 max_iterations: 25
