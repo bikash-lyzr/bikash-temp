@@ -15,11 +15,17 @@ features:
       provider_type: cognis
       params:
         cross_session: false
-tools: []
-managed_agents:
-- id: 6a423d99261431fb32398960
-  name: 'Tweet '
-  usage_description: Use this agent to write tweets
+tools:
+- openapi-demo_todo_task-getTodos
+tool_configs:
+- tool_name: openapi-demo_todo_task-getTodos
+  tool_source: openapi
+  action_names:
+  - get todo task list
+  server_id: ''
+  provider_uuid: ''
+  credential_id: ''
+  persist_auth: true
 response_format:
   type: text
 max_iterations: 25
