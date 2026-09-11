@@ -15,6 +15,18 @@ features:
       provider_type: cognis
       params:
         cross_session: false
+- type: KNOWLEDGE_BASE
+  priority: 0
+  config:
+    lyzr_rag:
+      base_url: https://rag-prod.studio.lyzr.ai
+      rag_id: 6a9fe022d14177c012893744
+      rag_name: demo
+      params:
+        top_k: 10
+        retrieval_type: basic
+        score_threshold: 0
+    agentic_rag: []
 tools:
 - openapi-demo_todo_task-getTodos
 tool_configs:
