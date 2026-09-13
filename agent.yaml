@@ -7,14 +7,6 @@ model:
   temperature: 0.7
   top_p: 0.9
 features:
-- type: MEMORY
-  priority: 0
-  config:
-    provider: cognis
-    lyzr_memory:
-      provider_type: cognis
-      params:
-        cross_session: false
 - type: RAI
   priority: 1
   config:
